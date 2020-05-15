@@ -1,0 +1,21 @@
+@import "layout.nav.css";
+@import "layout.hero.css";
+@import "layout.portfolio.css";
+@import "layout.join.css";
+@import "layout.footer.css";
+
+body {
+    background-color: #000;
+    /*background-color: white;*/
+}
+
+.container, .nav-bar, .nav-content, .container-hero {
+    margin-left: auto;
+}
+
+.container {
+    width: 90%;
+    margin-right: auto;
+}
+
+

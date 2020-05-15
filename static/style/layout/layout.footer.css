@@ -1,0 +1,60 @@
+.footer {
+    background-color: #fff;
+    padding-top: 150px;
+    padding-bottom: 140px;
+}
+
+.footer-social-media {
+    margin-top: 30px;
+    padding-left: 0;
+}
+
+.social-link-ico > img {
+    width: 36px;
+}
+
+.footer-copyright-text {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 991px) {
+    .footer {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .c4k {
+        width: 100%;
+    }
+
+    .c4k-info {
+        width: 100%;
+    }
+
+    h2, h3 {
+        font-size: 40px;
+    }
+
+    .c4k-tagline {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+}
