@@ -42,7 +42,7 @@
     color: hsla(0, 0%, 100%, .5);
 }
 
-.w-nav-button {
+.nav-button {
     position: relative;
     float: right;
     padding: 18px;
@@ -55,17 +55,75 @@
     -ms-user-select: none;
 }
 
+.nav-overlay {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+}
+
 @media screen and (max-width: 991px) {
+    .nav-overlay.on {
+        display: block;
+    }
     .nav-link-menu {
+        top: 0px;
         display: none;
+        background-color: #fff;
+        position: absolute;
+        left: 0;
+        right: 0;
+        overflow: visible;
+        min-width: 200px;
+
+        transition: transform .4s;
+        -webkit-transition: -webkit-transform .4s;
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+    }
+    .nav-link-menu.on {
+        display: block;
+    }
+    .nav-link {
+        color: rgba(0,0,0,.5);
+        padding: 40px 60px;
+        -webkit-transition: background-color .2s ease-in-out,color .2s ease-in-out;
+        transition: background-color .2s ease-in-out,color .2s ease-in-out;
+        color: #000;
+        font-size: 40px;
+        line-height: 1.2em;
+        display: block;
+        position: relative;
     }
 
-    .w-nav-button {
+    .nav-link:hover {
+        background-color: #000;
+        opacity: 1;
+        color: #fff;
+        text-decoration: none;
+    }
+    .nav-button {
         display: block;
         padding: 0;
     }
 
-    .nav-menu-icon-on {
+    .nav-menu-icon {
         height: 64px;
+        transition: transform .4s;
+        -webkit-transition: -webkit-transform .4s;
+    }
+
+    .nav-menu-icon.on {
+        transform: rotateZ(-45deg);
+        -webkit-transform: rotateZ(-45deg);
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .nav-link {
+        padding: 25px;
     }
 }
