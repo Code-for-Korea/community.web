@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "name": "community.web",
+  "version": "1.0.0",
+  "repository": "https://github.com/Code-for-Korea/community.web.git",
+  "author": "Junsu Lee <me@adrinerdp.co>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "devDependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.6.0",
+    "laravel-mix": "^6.0.16",
+    "popper.js": "^1.16.1",
+    "postcss": "^8.1",
+    "resolve-url-loader": "^3.1.2",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1"
+  },
+  "dependencies": {
+    "slack-hawk-down": "^0.5.3"
+  }
+}

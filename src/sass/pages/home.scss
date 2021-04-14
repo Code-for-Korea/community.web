@@ -1,0 +1,52 @@
+#home {
+  #introduction {
+    .comment {
+      margin: 4rem 0 2rem 0;
+      padding-left: 0.75rem;
+      width: 80%;
+      max-width: 23rem;
+      font-size: 1.4rem;
+      line-height: 1.6;
+      font-weight: 500;
+      border-left: 4px solid rgba(255,255,255,0.75);
+    }
+    strong {
+      font-weight: 800;
+    }
+  }
+
+  #links {
+    a {
+      margin-right: 0.5rem;
+    }
+    .fa {
+      font-size: 2rem;
+      color: rgba(255, 255, 255, 0.75);
+      transition: .2s ease-in-out;
+      &:hover {
+        color: #ffffff;
+      }
+    }
+  }
+
+  img#mouseScroll {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2rem;
+    filter: invert(1) opacity(0.5);
+  }
+
+  img#logo {
+    width: 80%;
+    max-width: 30rem;
+    filter: brightness(100) saturate(0);
+  }
+
+  #announcement {
+    .content {
+      white-space: pre-line;
+    }
+  }
+}
