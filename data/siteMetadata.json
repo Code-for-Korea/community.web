@@ -1,0 +1,16 @@
+{
+  "title": "코드포코리아",
+  "author": "코드포코리아",
+  "headerTitle": "코드포코리아",
+  "description": "HAPPY CIVIC HACKING WITH CODE FOR KOREA",
+  "language": "ko-kr",
+  "siteUrl": "https://www.adrinerdp.co",
+  "siteRepo": "https://github.com/adrinerdp/blog",
+  "image": "https://www.gravatar.com/avatar/950079ae7081266fb48666d7862264d8?s=192",
+  "socialBanner": "/static/images/twitter-card.png",
+  "email": "me@adrinerdp.co",
+  "github": "https://github.com/adrinerDP",
+  "twitter": "https://twitter.com/adrinerDP",
+  "facebook": "https://facebook.com/adrinerDP",
+  "locale": "ko-KR"
+}
